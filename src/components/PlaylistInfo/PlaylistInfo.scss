@@ -1,0 +1,21 @@
+.playlist_info {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: #282828;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.playlist_info_image {
+    height: 125px;
+    object-fit: contain;
+    
+}
+
+.playlist_description {
+    color: #a6a6a6;
+    font-size: 10px;
+}

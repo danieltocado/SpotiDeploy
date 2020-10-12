@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Login from './components/Login/Login';
 import Player from './components/Player/Player';
 import Playlist from './components/Playlist/Playlist';
+import Search from './components/Search/Search';
 import { getToken } from './config/spotify';
 import SpotifyWebApi from "spotify-web-api-js";
 import { GlobalHistory } from './history';
@@ -68,6 +69,7 @@ function App() {
             <Route exact path="/" component={Login}/>
           } 
             <Route exact path="/playlist/:id" component={Playlist} />
+            <Route exact path="/search" component={Search} />
 
           </Switch>
 

@@ -1,12 +1,18 @@
 .body {
     padding: 30px;
+    padding-bottom: 20px;
     flex: 0.9;
     height: 100vh;
     color: white;
     overflow-y: overlay;
     background: #121212;
     text-decoration:none !important;
+    overflow-x: scroll;
 
+}
+
+.body_header {
+    width: 100%;
 }
 
 .body::-webkit-scrollbar {
@@ -74,3 +80,20 @@ a:link, a:visited, a:active {
     text-decoration:none !important;
     color: white;
   }
+
+.category_info {
+    padding-top: 20px;
+}
+
+.body_playlists {
+    padding-top: 1em;
+}
+
+.buttons_header {
+    position: fixed;
+    color: red;
+}
+
+.vacio {
+    height: 500px;
+}

@@ -30,7 +30,7 @@ function Sidebar() {
             <img className="sidebar_logo" src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg" alt=""/>
 
             <Link to={"/home"}><SidebarOption Icon={HomeIcon} title="Home"/></Link>
-            <SidebarOption Icon={SearchIcon} title="Search"/>
+            <Link to={"/search"}><SidebarOption Icon={SearchIcon} title="Search"/></Link>
             <SidebarOption Icon={LibraryMusicIcon} title="Your Library"/>
 
             <br/>
